@@ -1,0 +1,37 @@
+{
+    "task_name":"Angular project on to do list should do",
+    "task_description":"it should include",
+    "Add Task":"Add Task",
+    "View Tasks":"View Tasks",
+    "View Completed Tasks":"View Completed Tasks",
+    "View Incomplete Tasks":"View Incomplete Tasks",
+    "REGISTRATION PAGE":"REGISTRATION PAGE",
+    "firstname :":"firstname :",
+    "lastname :":"lastname :",
+    "username :":"username",
+    "email :":"email :",
+    "phone_number :":"phone_number :",
+    "gender :":"gender :",
+    "password :":"password :",
+    "LOGIN PAGE":"LOGIN PAGE",
+    "REGISTER":"REGISTER",
+    "Welcome":"Welcome",
+    "Task:":"Task:",
+    "Your Tasks":"Your Tasks",
+    "Edit":"Edit",
+    "Delete":"Delete",
+    "No tasks available.":"No tasks available.",
+    "Task Description:":"Task Description:",
+    "Task Name":"Task Name",
+    "Task Description":"Task Description",
+    "Status":"Status",
+    "Actions":"Actions"
+
+
+
+
+
+
+
+
+}

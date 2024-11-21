@@ -1,0 +1,46 @@
+ <button (click)="switchLanguage('en')" class="float-end btn btn-warning">English</button>
+    <button (click)="switchLanguage('ml')" class="float-end btn btn-danger">Malayalam</button>
+
+<div class="container">
+    <h1 class="text-success ">{{"REGISTRATION PAGE"|translate}}</h1>
+        <form #form1="ngForm" (ngSubmit)="register(form1.value)">
+            <div>
+                <label for="firstname">{{"firstname :"|translate}}</label>
+                <input type="text" name="first_name" id="firstname" placeholder="enter your firstname" class="form-control" ngModel>
+    
+            </div><br>
+
+            <div>
+                <label for="lastname">{{"lastname :"|translate}}</label>
+                <input type="text" name="last_name" id="lastname" placeholder="enter your lastname" class="form-control" ngModel>
+    
+            </div><br>
+            <div>
+                <label for="username">{{"username :"|translate}}</label>
+                <input type="text" name="username" id="username" placeholder="enter your username" class="form-control" ngModel>
+    
+            </div><br>
+             <div>
+                <label for="email">{{"email :"|translate}}</label>
+                <input type="email" name="email" id="email" placeholder="enter your email" class="form-control" ngModel>
+    
+            </div><br>
+             <div>
+                <label for="phone_number">{{"phone_number :"|translate}}</label>
+                <input type="number" name="phone_number" id="phone_number" placeholder="enter your phone_number" class="form-control" ngModel>
+    
+            </div><br>
+             <div>
+                <label for="gender">{{"gender :"|translate}}</label><br>
+                <input type="radio" name="gender" class="form-check-input" ngModel value="male">male
+                <input type="radio" name="gender"  class="form-check-input" ngModel value="female">female
+            </div><br>
+
+            <div>
+                <label for="password">{{"password :"|translate}}</label>
+                <input type="password" name="password" id="password" placeholder="enter your password" class="form-control" ngModel>
+    
+            </div>
+            <input type="submit" value="REGISTER" class="btn btn-primary">
+        </form>
+</div>

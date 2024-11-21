@@ -1,0 +1,20 @@
+ <button (click)="switchLanguage('en')" class="float-end btn btn-warning">English</button>
+    <button (click)="switchLanguage('ml')" class="float-end btn btn-danger">Malayalam</button>
+
+<div class="container">
+    <h1 class="text-success">{{"LOGIN PAGE"|translate}}</h1>
+        <form #form2="ngForm" (ngSubmit)="login(form2.value)">
+        
+            <div>
+                <label for="username">{{"username :"|translate}}</label>
+                <input type="text" name="username" id="username" placeholder="enter your username" class="form-control" ngModel>
+            </div>
+          
+                 <div>
+                <label for="password">{{"password :"|translate}}</label>
+                <input type="password" name="password" id="password" placeholder="enter your password" class="form-control" ngModel>
+    
+            </div>
+            <input type="submit" value="LOGIN" class="btn btn-primary">
+        </form>
+</div>
